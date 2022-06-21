@@ -71,7 +71,7 @@ const Wrapper = styled.div`
   }
 @media (max-width:375px){
 .info{
-height:450px;
+height:550px;
 }
 }
 
