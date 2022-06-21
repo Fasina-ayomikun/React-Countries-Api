@@ -35,7 +35,7 @@ function SingleCountry() {
     );
   }
 
-  console.log(single_country);
+
   let {
     name,
     population,
@@ -52,20 +52,13 @@ function SingleCountry() {
   if (borders === undefined) {
     borders = ["Nil"];
   }
-  console.log(
-    name,
-    population,
-    region,
-    capital,
-    subregion,
-    image,
-    currencies,
-    languages,
-    nativeName,
-    tld,
-    borders
-  );
-
+  if (currencies === undefined) {
+    currencies = ["Nil"];
+  }
+  if (languages === undefined) {
+    languages = ["Nil"];
+  }
+ 
   return (
     <>
       <Navbar />
