@@ -36,7 +36,7 @@ const Wrapper = styled.div`
 
     justify-content: space-between;
     width: 100%;
-    height: 400px;
+   
     background-color: var(--white);
     box-shadow: var(--shadow-1);
     border-radius: 10px;
